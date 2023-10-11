@@ -28,5 +28,6 @@ public class Programa {
 		ContaTerminal contaTerminal = new ContaTerminal(numero, agencia, cliente, saldo);
 		
 		System.out.println(contaTerminal);
+		scanner.close();
 	}
 }
